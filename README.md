@@ -7,7 +7,7 @@ Basic scaffolding for creating React components.
 1. Create and move into your component's directory
 	- `mkdir your-shiny-component && cd your-shiny-component`
 1. Clone the repo
-	- `git clone git@github.com:britannica/generic-react-component.git`
+	- `git clone git@github.com:ryanwalters/generic-react-component.git`
 1. Update the remote
 	- `git remote rm origin`
 	- `git remote add origin <new git repo url>`
