@@ -20,23 +20,24 @@ Basic scaffolding for creating React components.
 
 ## Set up your environment to work locally on your component
 
-#### Within this component directory
+#### Component directory
 
-1. Install dependencies
-	- `npm install`
-1. [Link it](https://docs.npmjs.com/cli/link) so we can include it in our project as a dependency without publishing it
-	- `npm link`
-	
-#### Inside your other project's directory
+```
+cd ~/your-shiny-component
+npm install
+npm link
+```
 
-1. `cd` into your project directory
-	- `cd ~/big-project`
-1. Link your project to the local version of your component
-	- `npm link your-shiny-component`
+This installs our dependencies and allows us to use this dev version of the component in other projects as if it were installed as a dependency. [`npm link` documentation](https://docs.npmjs.com/cli/link)
 
-## You're all set up!
+#### Project directory
 
-In your project, you can now import your component as if it was installed as a dependency.
+```
+cd ~/big-project
+npm link your-shiny-component
+```
+
+This let's us use `your-shiny-component` from within the project as if it were a normal dependency.
 
 ```javascript
 import React from 'react';
@@ -73,5 +74,5 @@ cd ~/your-shiny-component
 npm unlink
 ```
 
-##### Credits:
+#### Credits:
 Borrowed much of this from [How to create a React component and publish it on NPM](https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce)
