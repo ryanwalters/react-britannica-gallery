@@ -5,18 +5,26 @@ Basic scaffolding for creating React components.
 ## Set up your repo
 
 1. Create and move into your component's directory
-	- `mkdir your-shiny-component && cd your-shiny-component`
+	```
+	mkdir your-shiny-component && cd your-shiny-component
+	```
 1. Clone the repo
-	- `git clone git@github.com:ryanwalters/generic-react-component.git`
+	```
+	git clone git@github.com:ryanwalters/generic-react-component.git
+	```
 1. Update the remote
-	- `git remote rm origin`
-	- `git remote add origin <new git repo url>`
+	```
+	git remote rm origin
+	git remote add origin <new git repo url>
+	```
 1. Rename the component
 	- Change `name` in `package.json`
-	- Do a search and replace for `GenericComponent`
+	- Search and replace `GenericComponent` -> `YourShinyComponent`
 1. Commit and push the new component. Note: the `-u` flag is only needed this once to set the upstream repo.
-	- `git commit -am "initial commit"`
-	- `git push -u origin master`
+	```
+	git commit -am "initial commit"
+	git push -u origin master
+	```
 
 ## Set up your environment to work locally on your component
 
