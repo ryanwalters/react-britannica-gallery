@@ -45,7 +45,7 @@ cd ~/big-project
 npm link your-shiny-component
 ```
 
-This let's us use `your-shiny-component` from within the project as if it were a normal dependency.
+This lets us use `your-shiny-component` from within the project as if it were a normal dependency.
 
 ```javascript
 import React from 'react';
