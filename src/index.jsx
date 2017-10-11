@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-class GenericComponent extends React.Component {
+class EbGallery extends React.Component {
   state = {
     name: 'Component!',
   };
@@ -13,4 +13,4 @@ class GenericComponent extends React.Component {
   }
 }
 
-export default GenericComponent;
+export default EbGallery;

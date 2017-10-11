@@ -2,12 +2,12 @@
 import Adapter from 'enzyme-adapter-react-16';
 import React from 'react';
 import Enzyme, { shallow } from 'enzyme';
-import GenericComponent from '../';
+import EbGallery from '../';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-describe('<GenericComponent />', () => {
+describe('<EbGallery />', () => {
   it('should render without throwing an error', () => {
-    expect(shallow(<GenericComponent />).contains('Component!')).toBe(true);
+    expect(shallow(<EbGallery />).contains('Component!')).toBe(true);
   });
 });

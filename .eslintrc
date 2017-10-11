@@ -7,5 +7,8 @@
   "plugins": [
     "class-property",
     "jest"
-  ]
+  ],
+  "rules": {
+    "linebreak-style": 0
+  }
 }

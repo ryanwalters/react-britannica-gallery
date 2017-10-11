@@ -1,7 +1,7 @@
 {
-  "name": "generic-react-component",
+  "name": "react-britannica-gallery",
   "version": "0.0.1",
-  "description": "Scaffolding for creating React components",
+  "description": "Encyclopedia Britannica media gallery component",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.0.0"
