@@ -7,8 +7,7 @@ import GenericComponent from '../';
 Enzyme.configure({ adapter: new Adapter() });
 
 describe('<GenericComponent />', () => {
-
-    it('should render without throwing an error', () => {
-        expect(shallow(<GenericComponent/>).contains(<div>Component!</div>)).toBe(true);
-    });
+  it('should render without throwing an error', () => {
+    expect(shallow(<GenericComponent />).contains('Component!')).toBe(true);
+  });
 });
