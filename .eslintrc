@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
   "env": {
+    "browser": true,
     "jest/globals": true
   },
   "parser": "babel-eslint",
@@ -9,6 +10,10 @@
     "jest"
   ],
   "rules": {
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "object-curly-newline": ["error", {
+      "consistent": true
+    }],
+    "react/jsx-filename-extension": 0
   }
 }
